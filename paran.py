@@ -17,21 +17,21 @@ def balparant(s):
         else:
             if not stack:
                 return False
-        cur = stack.pop()
-        if cur == ")" and char != "(":
-            return False
-        if cur == "}" and char != "{":
-            return False
-        if cur == "]" and char != "[":
-            return False
-        if stack:
-            return False
-        return True
+            cur = stack.pop()
+            if cur == "(" and char != ")":
+                return False
+            if cur == "{" and char != "}":
+                return False
+            if cur == "[" and char != "]":
+                return False
+    if stack:
+        return False
+    return True
 
 
 # driver code
 if __name__ == "__main__":
-    s = "{}((())){}[{}]"
+    s = "(([])){[()]}"
 
     if balparant(s):
         print("balanced")
