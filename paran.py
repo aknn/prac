@@ -31,7 +31,7 @@ def balparant(s):
 
 # driver code
 if __name__ == "__main__":
-    s = "(([])){[()]}"
+    s = "{}[()]"
 
     if balparant(s):
         print("balanced")
