@@ -1,5 +1,5 @@
 """
-euclids algorithm for gcd
+euclids algorithm to find gcd
 
 """
 def gcd(a,b):
