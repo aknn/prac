@@ -3,11 +3,10 @@ The h-index is a metric that attempts to measure the productivity and citation i
 
 Given a list of publications of the number of citations a scholar has, find their h-index.
 
-
 """
 
 
-def hindex(lis=[ ]):
+def hindex(lis=[ 7, 8, 9, 1 ]):
     if len(lis) == 0:
         return 0
     for j in range(max(lis), -1, -1):
