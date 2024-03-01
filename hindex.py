@@ -6,14 +6,15 @@ Given a list of publications of the number of citations a scholar has, find thei
 """
 
 
-def hindex(lis=[ 7, 8, 9, 1, 4, 4, 5, 5 ]):
-    if len(lis) == 0:
-        return 0
-    for j in range(len(lis), -1, -1):
-        check = [ x - j for x in lis ]
-        PosCount = len(list(filter(lambda x: (x >= 0), check)))
-        if j <= PosCount:
-            return j
+def hindex(citations):
+    citations.sort(reverse=True)
+    h = 0
+    for i, cite in enumerate(citations):
+        if i < cite:
+            h += 1
+        else:
+            break
+    return h
 
-
-print(hindex())
+# Example usage:
+print(hindex([7, 8, 9, 1, 4, 4, 5, 5]))
