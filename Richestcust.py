@@ -11,7 +11,3 @@ class Solution:
     def maximumWealth(self, accounts: list[list[int]]) -> int:
         wealths = list(map(lambda account: sum(account), accounts))
         return max(wealths)
-
-x = Solution()
-y = [[1,2,3],[3,2,1]]
-print(x.maximumWealth(y))
