@@ -94,9 +94,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/anilkumar09) - email@example.com
+Your Name - [@anilkumar09](https://twitter.com/anilkumar09) - anil.kumar.nn@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/prac/Time%20Series)
+Project Link: [https://github.com/aknn/Time Series](https://github.com/aknn/prac/tree/master/Time%20Series)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
