@@ -105,7 +105,7 @@ Project Link: [https://github.com/aknn/Time Series](https://github.com/aknn/prac
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+* [ATSA course](https://atsa-es.github.io/atsa/lectures.html)
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
