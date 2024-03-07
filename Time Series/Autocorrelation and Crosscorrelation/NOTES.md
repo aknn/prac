@@ -43,3 +43,5 @@ The difference operator can help make a random walk stationary. Differencing a t
 Now, the differenced series \( \Delta Y_t \) is stationary because it is equal to \( \epsilon_t \), which is a white noise process with a constant mean of zero and constant variance. The differencing operation has removed the time-dependent structure of the series (the growing mean and variance), leaving a stationary white noise process.
 
 By differencing, we've essentially transformed the non-stationary process into a stationary one by eliminating the trend and stabilizing the variance. This is why differencing is a common technique in time series analysis to achieve stationarity, which is an assumption required by many statistical methods.
+
+Gaussian white noise looks choppy and a random walk looks smooth. 
