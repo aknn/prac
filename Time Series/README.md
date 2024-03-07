@@ -61,16 +61,35 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+## Time Series Analysis Course Overview
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This repository contains my work and notes for a comprehensive course on Time Series Analysis. The course is designed to provide students with both theoretical knowledge and practical skills in applying time series models to fisheries and environmental data. 
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+### Course Content
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+The curriculum includes, but is not limited to, the following topics:
+- Autocorrelation and Crosscorrelation
+- Autoregressive (AR) and Moving Average (MA) Models
+- Univariate and Multivariate State-Space Models
+- Parameter Estimation Techniques
+- Model Performance Assessment
+- Model Diagnostic Evaluation
+
+While the primary focus is on time-domain methods, the course also introduces frequency-domain techniques, albeit briefly. The overall emphasis of the course is on conceptualizing analyses, carrying out the analyses practically, and interpreting the results to make informed inferences.
+
+### Practical Exercises
+
+As part of the learning process, I am actively engaging with practical examples and exercises. For hands-on experience and to enhance my understanding, I follow along with instructional videos available on the SAFS Time Series YouTube channel. These videos are instrumental in demonstrating the application of theoretical concepts to real-world time series problems.
+
+You can explore the video resources that I have been using here: [SAFS Time Series on YouTube](https://www.youtube.com/@SAFSTimeSeries)
+
+### Implementation
+
+In this repository, I document my progress through the course, including the implementation of various time series models and analyses. Each directory within the repository corresponds to a specific topic or assignment from the course, showcasing the practical application of the skills I've acquired.
+
+---
+
+
 
 Use the `BLANK_README.md` to get started.
 
