@@ -14,6 +14,16 @@ White noise is a random signal with a constant power spectral density. In the co
 
 Python script for white noise autocorrelation here: [gaussian_white.py](./gaussian_white.py)
 
+
+
+Python script for plotting the random walk and its autocorrelation function (ACF) here: [Random_walk.py](./Random_walk.py)
+
+![Random Walk and ACF](./images/Randomwalk_ACF.png)
+
+
+
+
+
 ## Crosscorrelation
 
 Crosscorrelation is a measure of similarity between two different time series as a function of the displacement of one relative to the other. It is used to find the relationship between two signals and determine if they are related or if one signal is influencing the other. Crosscorrelation can help in identifying time delays, phase differences, and common periodicities between two time series.
