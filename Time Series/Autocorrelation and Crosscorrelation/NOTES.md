@@ -11,7 +11,7 @@ Here you'll find detailed notes on the topic of Autocorrelation and Crosscorrela
 ... Your notes on autocorrelation ...
 ### Python Script for Analysis
 
-Python script for white noise autocorrelation. You can find the script here: [autocorr_analysis.py](./autocorr_analysis.py)
+Python script for white noise autocorrelation. You can find the script here: [gaussian_white.py](./gaussian_white.py) 
 
 ### Autocorrelation Results
 
