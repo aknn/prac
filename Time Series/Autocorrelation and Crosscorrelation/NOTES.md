@@ -17,7 +17,7 @@ Python script for white noise autocorrelation. You can find the script here: [ga
 
 The following image illustrates the autocorrelation results obtained from the analysis:
 
-![Autocorrelation Results](./autocorrelation_results.png)
+![white_ACF](./white_ACF.png.png)
 
 ## Crosscorrelation
 
