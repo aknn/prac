@@ -74,6 +74,8 @@ where:
 - ε(t), ε(t-1), ..., ε(t-q) are the white noise errors
 - θ₁, θ₂, ..., θₚ are the coefficients of the lagged errors
 
+
+
 Python script for generating an MA(1) model:
 
 [ma1_model.py](./ma1_model.py)
@@ -109,3 +111,7 @@ plt.show()
 
 
 ![MA(1) Model](./images/MA_1.png)
+
+
+An AR process is one where the current value is based on its own previous values.
+An MA process is one where the current value is based on past random shocks or error terms.

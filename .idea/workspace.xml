@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6bc5455-e911-4702-9b2b-4e5d6b46a691" name="Changes" comment="image" />
+    <list default="true" id="e6bc5455-e911-4702-9b2b-4e5d6b46a691" name="Changes" comment="code and image">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Time Series/AR and MA/NOTES.md" beforeDir="false" afterPath="$PROJECT_DIR$/Time Series/AR and MA/NOTES.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -430,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709879235013</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="code and image">
+      <option name="closed" value="true" />
+      <created>1709879709139</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1709879709139</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -477,7 +488,8 @@
     <MESSAGE value="rearrange" />
     <MESSAGE value="create" />
     <MESSAGE value="image" />
-    <option name="LAST_COMMIT_MESSAGE" value="image" />
+    <MESSAGE value="code and image" />
+    <option name="LAST_COMMIT_MESSAGE" value="code and image" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
