@@ -45,7 +45,7 @@ plt.show()
 ```
 
 
-![AR1 Model](./images/AR_1.png)
+![AR(1) Model](./images/AR_1.png)
 
 ### Moving Average (MA) Models
 
@@ -93,3 +93,6 @@ plt.xlabel('Time')
 plt.ylabel('Value')
 plt.show()
 ```
+
+
+![MA(1) Model](./images/MA_1.png)
