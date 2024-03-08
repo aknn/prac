@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6bc5455-e911-4702-9b2b-4e5d6b46a691" name="Changes" comment="rearrange" />
+    <list default="true" id="e6bc5455-e911-4702-9b2b-4e5d6b46a691" name="Changes" comment="create" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +41,7 @@
       <recent name="$PROJECT_DIR$/Python bytes/Leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Differencing">
+  <component name="RunManager" selected="Python.ar1_model">
     <configuration name="Differencing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="prac" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decorator3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ar1_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="prac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,11 +92,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python bytes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Time Series/AR and MA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python bytes/decorator3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Time Series/AR and MA/ar1_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ar1_model" />
         <item itemvalue="Python.Differencing" />
         <item itemvalue="Python.Random_walk" />
         <item itemvalue="Python.gaussian_white" />
         <item itemvalue="Python.magic_method" />
-        <item itemvalue="Python.decorator3" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +358,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709876800548</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="rearrange">
+      <option name="closed" value="true" />
+      <created>1709877463585</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1709877463585</updated>
+    </task>
+    <task id="LOCAL-00026" summary="create">
+      <option name="closed" value="true" />
+      <created>1709877695792</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1709877695792</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -403,7 +419,8 @@
     <MESSAGE value="revised" />
     <MESSAGE value="first" />
     <MESSAGE value="rearrange" />
-    <option name="LAST_COMMIT_MESSAGE" value="rearrange" />
+    <MESSAGE value="create" />
+    <option name="LAST_COMMIT_MESSAGE" value="create" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
