@@ -45,7 +45,7 @@ plt.show()
 ```
 
 
-[AR1 Model](./images/AR_1.png)
+![AR1 Model](./images/AR_1.png)
 
 ### Moving Average (MA) Models
 
