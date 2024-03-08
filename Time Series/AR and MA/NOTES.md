@@ -44,6 +44,9 @@ plt.ylabel('Value')
 plt.show()
 ```
 
+
+![AR1 Model](./images/AR_1.png)
+
 ### Moving Average (MA) Models
 
 A moving average model is another type of time series model where the current value of the series depends on the past errors or residuals. The order of an MA model, denoted as MA(q), indicates the number of lagged errors used in the model.
