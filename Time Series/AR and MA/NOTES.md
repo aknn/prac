@@ -113,5 +113,4 @@ plt.show()
 ![MA(1) Model](./images/MA_1.png)
 
 
-An AR process is one where the current value is based on its own previous values.
-An MA process is one where the current value is based on past random shocks or error terms.
+An AR process is one where the current value is based on its own previous values. An MA process is one where the current value is based on past random shocks or error terms.
