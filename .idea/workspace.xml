@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6bc5455-e911-4702-9b2b-4e5d6b46a691" name="Changes" comment="MM example">
-      <change afterPath="$PROJECT_DIR$/Credit Risk Model/PACF_code.py" afterDir="false" />
+    <list default="true" id="e6bc5455-e911-4702-9b2b-4e5d6b46a691" name="Changes" comment="Pacf calc">
+      <change afterPath="$PROJECT_DIR$/Credit Risk Model/monte_carlo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -66,28 +66,7 @@
       <recent name="$PROJECT_DIR$/Python bytes/Leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_test_things_2">
-    <configuration name="OOPS_lessons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="prac" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Credit Risk Model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Credit Risk Model/OOPS_lessons.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test_things_2">
     <configuration name="eg_ACF" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="prac" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,6 +130,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_things_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="prac" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Credit Risk Model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Credit Risk Model/test_things_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_things.TestThings" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="prac" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_test_things_2" />
+        <item itemvalue="Python.test_things_2" />
         <item itemvalue="Python.test_things" />
-        <item itemvalue="Python.eg_ACF" />
         <item itemvalue="Python tests.Python tests for test_things.TestThings" />
-        <item itemvalue="Python.OOPS_lessons" />
+        <item itemvalue="Python.test_test_things_2" />
+        <item itemvalue="Python.eg_ACF" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711296522813</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Pacf calc">
+      <option name="closed" value="true" />
+      <created>1711520670348</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1711520670348</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -522,7 +530,8 @@
     <MESSAGE value="code and image" />
     <MESSAGE value="wip" />
     <MESSAGE value="MM example" />
-    <option name="LAST_COMMIT_MESSAGE" value="MM example" />
+    <MESSAGE value="Pacf calc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pacf calc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -534,5 +543,10 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="success_count" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
