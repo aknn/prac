@@ -36,7 +36,7 @@ df['Residual_T_(i-2)|T_(i-1)'] = df['T_(i-2)'] – df['Predicted_T_(i-2)|T_(i-1)
 print(df.corr(method='pearson')['Residual_T_i|T_(i-1)']['Residual_T_(i-2)|T_(i-1)'])
 #prints: 0.29612303554627606
 
-#or cheat, like so:
+
 from statsmodels.tsa.stattools import pacf
 print(pacf(df['T_i'], nlags=2)[2])
 #prints: 0.2996545841351261
