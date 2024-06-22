@@ -1,4 +1,4 @@
-# able lookup is a special case of linear value function approximation where each state-action pair
+# Table lookup is a special case of linear value function approximation where each state-action pair
 # has a corresponding unique feature. This can be explained and illustrated using a simple example in Python.
 
 import numpy as np
