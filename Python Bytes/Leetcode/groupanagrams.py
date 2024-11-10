@@ -9,26 +9,25 @@ typically using all the original letters exactly once.
 
 """
 import collections
+from typing import List
 
 
-class Solution(object):
-    def groupAnagrams(self, strs):
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         """
         :type strs: List[str]
         :rtype: List[List[str]]
         """
-        anagrams_map, result = collections.defaultdict(list), [ ]
+        anagrams_map = collections.defaultdict(list)
         for s in strs:
-            sorted_str = ("").join(sorted(s))
-            anagrams_map[ sorted_str ].append(s)
-
-        for anagram in anagrams_map.values():
-            anagram.sort()
-            result.append(anagram)
-
-        return result
+            counts = [0] * 26
+            for c in s:
+                counts[ord(c) - ord('a')] += 1
+            key = tuple(counts)
+            anagrams_map[key].append(s)
+        return [sorted(group) for group in anagrams_map.values()]
 
 
 if __name__ == "__main__":
-    result = Solution().groupAnagrams([ "eat", "tea", "tan", "ate", "nat", "bat" ])
+    result = Solution().groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"])
     print(result)
